@@ -34,7 +34,6 @@ let pw=0,pp=0,py1=0,py2=0,py3=0,py4=0,px1=0,px2=0,px3=0,px4=0,px5=0,px6=0,px7=0,
 let home,homemenu,tsnum;
 let btn5,btn6,btn7;
 let user,pass;
-let testbtn;
 
 
 
@@ -86,14 +85,6 @@ function(){
     console.log( "user", user, "pass", pass );*/
     user = "2020m0030";
     pass = "asika1104";
-    
-
-    testbtn = document.getElementById( "test2" );
-    testbtn.addEventListener( "click",
-    function(){
-        location.replace( "/index2.html" );
-    },
-    false);
 
     //tm読込
     page();
