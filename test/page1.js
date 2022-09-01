@@ -127,7 +127,7 @@ function pageaddE(){
     btn7.addEventListener( "mousedown",
     function(){
         tsnum = document.getElementById( "tsnum" );
-        window.open( "http://localhost/DPMTM/tmsheet4.html?a="+Number( tsnum.value ), "_blank" );
+        window.open( "https://pacific-scrubland-78772.herokuapp.com/tmsheet5.html?"+Number( tsnum.value )+"&"+user, "_blank" );
     },
     false );
 }
